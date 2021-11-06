@@ -23,6 +23,7 @@ function App() {
                 if (command === 'newHeadlines') {
                     setNewsArticles(articles);
                     setActiveArticle(-1);
+                    document.body.scrollTop = document.documentElement.scrollTop = 0;
                 }
                 else if (command === 'highlight') {
                     setActiveArticle((prevActiveArticle) => prevActiveArticle + 1);
