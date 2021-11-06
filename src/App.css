@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardList_heading {
+    font-family: 'BioRhyme', serif;
+    letter-spacing: 4px;
+    font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardList_info {
+    font-size: 1.2rem;
+    font-family: 'Crimson Pro', serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cardlist_title {
+    font-family: 'Julius Sans One', sans-serif !important;
+    text-transform: lowercase;
+    font-weight: 900 !important;
+    font-size: 1rem !important;
+    letter-spacing: 4px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.cardList_voice {
+    font-family: 'Crimson Pro', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_title {
+    font-family: 'Crimson Pro', serif !important;
+    line-height: 1.2 !important;
+}
+
+.card_desc {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.card_button {
+    font-family: 'Julius Sans One', sans-serif !important;
+    text-transform: lowercase;
+    font-weight: 900 !important;
+    font-size: 0.875rem !important;
+    transition: all 0.3s ease-out !important;
+}
+
+.card_button:hover {
+    color: #FF0055 !important;
+}
+
+.card_source {
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.card_actionarea {
+    transition: all 0.3s ease-out !important;
+}
+
+.card_actionarea:hover {
+    background-color: #f7f7f7 !important;
+}
+
+.footer_heading {
+    color: white;
+}
+
+.footer_link {
+    font-weight: 700;
+    font-family: 'Julius Sans One', sans-serif !important;
+    margin-left: 4px;
+    color: #ff8906 !important;
+    transition: all 0.3s ease-out !important;
+}
+
+.footer_link:hover {
+    color: #FF0055 !important;
 }
