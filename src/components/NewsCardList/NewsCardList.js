@@ -8,7 +8,7 @@ const infoCards = [
     { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Show me the latest news on Sports' },
     { color: '#4527a0', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'What\'s up with PlayStation 5' },
     { color: '#283593', title: 'News by Sources', info: 'Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from BBC News' },
-    { color: '#03045e', title: 'News by Country', info: 'USA, United Kingdom, India, Bangladesh, Canada... ', text: 'Show me the news from India' },
+    { color: '#03045e', title: 'News by Country', info: 'USA, United Kingdom, India, Canada... ', text: 'What are the recent news of India' },
 ];
 
 
